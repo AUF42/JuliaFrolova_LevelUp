@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CalculatorTestSuite">
+    <suite-files>
+        <suite-file path="ArithmeticTestSuite.xml"/>
+        <suite-file path="PosNegSignTestSuite.xml"/>
+        <suite-file path="TrigonometricTestSuite.xml"/>
+    </suite-files>
+</suite>
