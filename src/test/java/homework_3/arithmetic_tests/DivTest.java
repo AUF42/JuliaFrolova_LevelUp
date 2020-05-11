@@ -14,7 +14,7 @@ public class DivTest extends AbstractBaseTest {
         Assert.assertEquals(calculator.div(a,b), expectedResult, "В программе ошибка, проверьте формулу вычисления div");
     }
 
-   // @Test(dataProvider = "DivDoubleData", dataProviderClass = DataProvidersForTests.class)
+   @Test(dataProvider = "DivDoubleData", dataProviderClass = DataProvidersForTests.class)
     public void div(double a, double b, double expectedResult)
     {
         System.out.println("Частное от деления чисел: " + a + " / " +b + " = " + expectedResult);
