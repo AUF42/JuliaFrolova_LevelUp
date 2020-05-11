@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления косинуса числа программой Калькулятор.
+ *
+ **/
+
 public class CosTest extends AbstractBaseTest {
 
     @Test(dataProvider = "CosData", dataProviderClass = DataProvidersForTests.class)

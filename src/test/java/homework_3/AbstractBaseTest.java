@@ -5,6 +5,14 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 
+/**
+ * @author u.frolova
+ *
+ * Абстрактный класс программы.
+ * Инициализирует Калькулятор на момент выполнения сьюта.
+ *
+ **/
+
 public abstract class AbstractBaseTest {
 
     public static Calculator calculator;

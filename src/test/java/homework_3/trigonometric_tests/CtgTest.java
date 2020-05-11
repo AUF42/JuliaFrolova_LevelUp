@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления котангенса числа программой Калькулятор.
+ *
+ **/
+
 public class CtgTest extends AbstractBaseTest {
 
     @Test(dataProvider = "CtgData", dataProviderClass = DataProvidersForTests.class)

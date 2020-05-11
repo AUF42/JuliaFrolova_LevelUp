@@ -3,9 +3,14 @@ package homework_3.arithmetic_tests;
 import homework_3.AbstractBaseTest;
 import homework_3.DataProvidersForTests;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления суммы чисел программой Калькулятор.
+ *
+ **/
 
 public class SumTest extends AbstractBaseTest {
 

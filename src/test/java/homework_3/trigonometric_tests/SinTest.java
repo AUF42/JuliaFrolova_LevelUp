@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления синуса числа программой Калькулятор.
+ *
+ **/
+
 public class SinTest extends AbstractBaseTest {
 
     @Test(dataProvider = "SinData", dataProviderClass = DataProvidersForTests.class)

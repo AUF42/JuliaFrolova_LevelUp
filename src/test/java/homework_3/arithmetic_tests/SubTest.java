@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления разности чисел программой Калькулятор.
+ *
+ **/
+
 public class SubTest extends AbstractBaseTest {
     @Test(dataProvider = "SubLongData", dataProviderClass = DataProvidersForTests.class)
     public void sub(long a, long b, long expectedResult)

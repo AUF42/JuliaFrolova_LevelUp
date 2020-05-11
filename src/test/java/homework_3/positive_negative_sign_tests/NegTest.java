@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность определения положительного знака числа программой Калькулятор.
+ *
+ **/
+
 public class NegTest extends AbstractBaseTest {
 
     @Test(dataProvider = "NegativeData", dataProviderClass = DataProvidersForTests.class)

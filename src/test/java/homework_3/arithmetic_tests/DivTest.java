@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления частного от деления чисел программой Калькулятор.
+ *
+ **/
+
 public class DivTest extends AbstractBaseTest {
 
     @Test(dataProvider = "DivLongData", dataProviderClass = DataProvidersForTests.class)

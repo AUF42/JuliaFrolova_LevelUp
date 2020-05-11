@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления тангенса числа программой Калькулятор.
+ *
+ **/
+
 public class TgTest extends AbstractBaseTest {
 
     @Test(dataProvider = "TgData", dataProviderClass = DataProvidersForTests.class)

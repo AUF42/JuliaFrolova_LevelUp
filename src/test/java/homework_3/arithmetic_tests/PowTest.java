@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность возведения числа в степень программой Калькулятор.
+ *
+ **/
+
 public class PowTest extends AbstractBaseTest {
 
     @Test(dataProvider = "PowData", dataProviderClass = DataProvidersForTests.class)

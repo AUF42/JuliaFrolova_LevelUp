@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления произведения чисел программой Калькулятор.
+ *
+ **/
+
 public class MltpTest extends AbstractBaseTest {
 
     @Test(dataProvider = "MtplLongData", dataProviderClass = DataProvidersForTests.class)

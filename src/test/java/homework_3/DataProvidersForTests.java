@@ -1,9 +1,14 @@
 package homework_3;
 
 import org.testng.annotations.DataProvider;
-
 import static jdk.nashorn.internal.objects.Global.Infinity;
-import static jdk.nashorn.internal.objects.Global.NaN;
+
+/**
+ * @author u.frolova
+ *
+ * Класс программы (@DataProvider), создающий массивы данных для тестов.
+ *
+ **/
 
 public class DataProvidersForTests {
 

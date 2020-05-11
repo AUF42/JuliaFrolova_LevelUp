@@ -5,6 +5,13 @@ import homework_3.DataProvidersForTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * @author u.frolova
+ *
+ * Тест на корректность вычисления квадратного корня числа программой Калькулятор.
+ *
+ **/
+
 public class SqrtTest extends AbstractBaseTest {
 
     @Test(dataProvider = "SqrtData", dataProviderClass = DataProvidersForTests.class)
