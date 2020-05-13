@@ -8,7 +8,7 @@ package homework_1;
 
 public class Sum {
 
-    public static double calculateSum(double number1, double number2) {
-        return  (number1+number2);
+    public double calculateSum(double number1, double number2) {
+        return (number1+number2);
     }
 }

@@ -8,7 +8,7 @@ package homework_1;
 
 public class Multiplication {
 
-    public static double calculateMult(double number1, double number2) {
+    public double calculateMult(double number1, double number2) {
         return (number1*number2);
     }
 }

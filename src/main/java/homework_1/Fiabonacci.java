@@ -9,7 +9,7 @@ package homework_1;
 
 public class Fiabonacci {
 
-    public static int calculateFiabonacci(int number1){
+    public int calculateFiabonacci(int number1){
         if (number1 <= 1)
             return number1;
         else

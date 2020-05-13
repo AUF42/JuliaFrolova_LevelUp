@@ -9,7 +9,7 @@ package homework_1;
 
 public class Exponentiation {
 
-    public static double calculateExp(double number1, int number2) {
+    public double calculateExp(double number1, int number2) {
         double result = 1;
         for(int i = 1; i<=number2; i++){
             result *= number1;

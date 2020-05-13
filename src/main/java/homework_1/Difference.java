@@ -8,7 +8,7 @@ package homework_1;
  */
 public class Difference {
 
-    public static int calculateDiff(int number1,int number2) {
+    public int calculateDiff(int number1,int number2) {
         return (number1-number2);
     }
 }
