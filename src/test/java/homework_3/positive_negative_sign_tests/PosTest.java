@@ -15,8 +15,7 @@ import org.testng.annotations.Test;
 public class PosTest extends AbstractBaseTest {
 
     @Test(dataProvider = "PositiveData", dataProviderClass = DataProvidersForTests.class)
-    public void PositiveData(long a, Boolean expectedResult)
-    {
+    public void PositiveData(long a, Boolean expectedResult) {
         System.out.println("Данное число положительное? " + a  +  " = " + expectedResult);
         Assert.assertTrue(calculator.isPositive(a), "Число отрицательное или равно 0");
     }

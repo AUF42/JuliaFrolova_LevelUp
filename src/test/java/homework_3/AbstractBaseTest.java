@@ -23,7 +23,7 @@ public abstract class AbstractBaseTest {
     }
 
     @AfterSuite
-    public void tearDownCalculator(){
+    public void tearDownCalculator() {
         calculator = null;
     }
 }

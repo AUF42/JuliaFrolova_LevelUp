@@ -15,8 +15,7 @@ import org.testng.annotations.Test;
 public class TgTest extends AbstractBaseTest {
 
     @Test(dataProvider = "TgData", dataProviderClass = DataProvidersForTests.class)
-    public void tg(double a, double expectedResult)
-    {
+    public void tg(double a, double expectedResult) {
         System.out.println("Тангенс числа: " + a  +  " = " + expectedResult);
         Assert.assertEquals(calculator.tg(a), expectedResult, 0.001, "В программе ошибка, проверьте формулу вычисления tg");
     }

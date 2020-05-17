@@ -15,8 +15,7 @@ import org.testng.annotations.Test;
 public class NegTest extends AbstractBaseTest {
 
     @Test(dataProvider = "NegativeData", dataProviderClass = DataProvidersForTests.class)
-    public void NegativeData(long a, Boolean expectedResult)
-    {
+    public void NegativeData(long a, Boolean expectedResult) {
         System.out.println("Данное число отрицательное? " + a  +  " = " + expectedResult);
         Assert.assertTrue(calculator.isNegative(a), "Число положительное или равно 0");
     }

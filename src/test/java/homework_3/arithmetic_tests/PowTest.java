@@ -15,8 +15,7 @@ import org.testng.annotations.Test;
 public class PowTest extends AbstractBaseTest {
 
     @Test(dataProvider = "PowData", dataProviderClass = DataProvidersForTests.class)
-    public void pow(double a, double b, double expectedResult)
-    {
+    public void pow(double a, double b, double expectedResult) {
         System.out.println("Возведение числа в степень: " + a + " ^ " +b + " = " + expectedResult);
         Assert.assertEquals(calculator.pow(a,b), expectedResult, 0.001, "В программе ошибка, проверьте формулу вычисления pow");
     }
