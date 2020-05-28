@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite General">
+    <suite-files>
+        <suite-file path="EmailDraftTest.xml"></suite-file>
+        <suite-file path="EmailCheckFilterTest.xml"></suite-file>
+        <suite-file path="EmailBasketTest.xml"></suite-file>
+    </suite-files>
+</suite>

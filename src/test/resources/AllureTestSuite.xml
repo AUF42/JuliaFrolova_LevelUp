@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite General">
+    <test name="MailDraft">
+    <classes>
+        <class name="homework_4.exercises.exercise_1.EmailDraftTest"/>
+        <class name="homework_4.exercises.exercise_2.EmailCheckFilterTest"/>
+        <class name="homework_4.exercises.exercise_3.EmailBasketTest"/>
+    </classes>
+    </test>
+</suite>

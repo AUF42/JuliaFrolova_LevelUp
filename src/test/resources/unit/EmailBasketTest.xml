@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EmailBasket">
+    <test name="EmailBasket Test" >
+        <classes>
+            <class name="homework_4.exercises.exercise_3.EmailBasketTest" />
+        </classes>
+    </test>
+</suite>
