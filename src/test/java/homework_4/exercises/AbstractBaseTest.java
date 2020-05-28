@@ -68,7 +68,6 @@ public abstract class AbstractBaseTest {
     @AfterMethod
     public void logOutInMail(){
         loginPage.logOutFromMail();
-
     }
 
     @AfterClass
