@@ -3,7 +3,7 @@
 <suite name="EmailCheckFilter">
     <test name="EmailCheckFilter Test" >
         <classes>
-            <class name="homework_4.exercise_2.EmailChecklFilterTest" />
+            <class name="homework_4.exercises.exercise_2.EmailChecklFilterTest" />
         </classes>
     </test>
 </suite>

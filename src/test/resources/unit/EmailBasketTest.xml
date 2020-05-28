@@ -3,7 +3,7 @@
 <suite name="EmailBasket">
     <test name="EmailBasket Test" >
         <classes>
-            <class name="homework_4.exercise_3.EmailBasketTest" />
+            <class name="homework_4.exercises.exercise_3.EmailBasketTest" />
         </classes>
     </test>
 </suite>
