@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ArithmeticTestSuite">
+    <test name="ArithmeticTests">
+        <classes>
+            <class name="homework_3.arithmetic_tests.MltpTest"/>
+            <class name="homework_3.arithmetic_tests.PowTest"/>
+            <class name="homework_3.arithmetic_tests.SqrtTest"/>
+            <class name="homework_3.arithmetic_tests.SubTest"/>
+            <class name="homework_3.arithmetic_tests.SumTest"/>
+            <class name="homework_3.arithmetic_tests.DivTest"/>
+        </classes>
+    </test>
+</suite>
